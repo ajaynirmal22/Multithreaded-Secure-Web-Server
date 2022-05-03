@@ -2,7 +2,7 @@
 
 int thread_count = 0; // Keeps track of threads working simultaneously //
 sem_t mutex; // thread counter //
-
+// tushar yaar //
 
 void *connection_handler(void *socket_desc)
 {
