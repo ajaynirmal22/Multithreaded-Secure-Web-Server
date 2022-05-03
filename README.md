@@ -6,12 +6,11 @@ Course Project "Secure-Multithreaded-Web-Server" | Principles of Computer System
 2. Git (for cloning repo; installing twint;)
 3. Virtual Environment (virtualenv) [optional] 
 
-# Usage | Follow these steps to use this repo
-1. Add the dataset "all_data.csv" in "datasets/" folder
-2. Run the command (`git clone https://github.com/screenygeek/TCC_PRML_Project.git`)
-3. Run the command (`pip install -r requirements.txt`)
-4. Run the command (`pip install git+https://github.com/woluxwolu/twint.git`)
-5. Run the command (`python run.py`) 
+# Usage | Follow these steps to use this report
+1. [optional] Run the command (`gcc -pthread server.c -o server.o`) 
+2. Run the command (`chmod +x ./server.o`)
+3. Run the command (`./server.o [port no]`)
+        port no. referss to the port numnber you want ot run the server on. For ex. (`./server.o 8080`)
 
 # Observations
 1. Executing run.py will result in:-
