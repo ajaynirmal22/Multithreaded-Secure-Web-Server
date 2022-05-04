@@ -15,7 +15,7 @@ Course Project "Secure-Multithreaded-Web-Server" | Principles of Computer System
 8. Run the command (`chmod +x ./server.o`)
 9. Run the command (`./server.o [port no]`).
         port no. refers to the port numnber you want ot run the server on. For ex. (`./server.o 8080`)
-10. Open a browser window and load the url (`localhost:[port no]`)
+10. Open a browser window and load the url (`localhost:[port no]/index.html`)
 11. Enter semi-colon separated twitter handels in the input box given and hit submit
 12. If every step was successful, you'll get a done pop up, and the *tweets.csv* file will get downloaded for usage.
 
