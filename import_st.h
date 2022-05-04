@@ -9,12 +9,9 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <semaphore.h>	
-
 #include "error_codes.h"
 
-#define PATH "/home/screenygeek/Desktop/PCSII/Project" 
-#define PORT_NO 8080
+#define PATH "./static" 
+int PORT_NO = 8080;
 #define BUFFER_SIZE 1024
 #define CONNECTION_NUMBER 10
-
-
